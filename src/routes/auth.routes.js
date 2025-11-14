@@ -4,7 +4,7 @@ import { signup, login, getMe } from "../controller/auth.controller.js";
 
 const router = Router();
 
-router.post("/register", signup);
+router.post("/signup", signup);
 router.post("/login", login);
 router.get("/me", auth, getMe);
 
